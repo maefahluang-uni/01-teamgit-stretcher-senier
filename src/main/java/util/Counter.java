@@ -80,6 +80,4 @@ public class Counter {
 		_ctr = frequency;
 	}
 
-
-	
 }
