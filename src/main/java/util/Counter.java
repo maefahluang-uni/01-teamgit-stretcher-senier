@@ -50,7 +50,7 @@ public class Counter {
 	public void decrementToPrime() {
 		_ctr--;
 		while (!isPrime(_ctr)) {
-			_ctr++;
+			_ctr--;
 		}
 	}
 	private boolean isPrime(int num){
@@ -71,5 +71,5 @@ public class Counter {
 		_ctr = -99;
 	}
 
-	
+
 }
